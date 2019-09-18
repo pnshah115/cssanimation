@@ -1,0 +1,104 @@
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+.grid_container {
+	width: 100%;
+	height: 100px;
+	position: relative;
+	left: 30%;
+	top: 30%; /* for optical centering */
+	margin:auto;
+}
+
+.mono {
+	font-family: 'futura';
+	font-size: 6em;
+	float: left;
+	margin-left: 5px;
+}
+.g{
+	background:linear-gradient(to right, red , yellow);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+  animation:grad 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+
+}
+.r{
+	background:linear-gradient(to right, red , yellow);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+  animation:grad 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+
+}
+.a{
+	background:linear-gradient(to right, red , yellow);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+  animation:grad 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+
+}
+.d{
+	background:linear-gradient(to right, red , yellow);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+  animation:grad 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 4s;
+
+}
+.i{
+	background:linear-gradient(to right, red , yellow);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+  animation:grad 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
+
+}
+.e{
+	background:linear-gradient(to right, red , yellow);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+  animation:grad 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 6s;
+
+}
+.n{
+	background:linear-gradient(to right, red , yellow);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+  animation:grad 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 7s;
+
+}
+.t{
+	background:linear-gradient(to right, red , yellow);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+  animation:grad 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 8s;
+
+}
+@keyframes grad{
+0%{opacity:0;}
+100%{opacity:1;}
+}
